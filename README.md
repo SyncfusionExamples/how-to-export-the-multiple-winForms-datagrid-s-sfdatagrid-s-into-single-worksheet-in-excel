@@ -1,5 +1,4 @@
-# how-to-export-the-multiple-winForms-datagrid-s-sfdatagrid-s-into-single-worksheet-in-excel
-How to export the multiple WinForms DataGrid's (SfDataGrid's) into single worksheet in Excel?
+# How to export the multiple WinForms DataGrid's (SfDataGrid's) into single worksheet in Excel?
 
 ## About the sample
 
@@ -30,6 +29,8 @@ private void OnExportButton_Click(object sender, EventArgs e)
     }
 }
 ```
+
+![Excel_Image](Excel_Image.png)
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
