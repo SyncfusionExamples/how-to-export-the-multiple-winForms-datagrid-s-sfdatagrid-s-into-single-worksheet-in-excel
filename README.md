@@ -1,10 +1,8 @@
-# How to export the multiple WinForms DataGrid's (SfDataGrid's) into single worksheet in Excel?
+# How to Export the Multiple WinForms DataGrid into Single Worksheet in Excel?
 
-## About the sample
+This sample illustrates how to export multiple [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid) into single worksheet in excel.
 
-This sample illustrates how to export multiple SfDataGrid's into single worksheet in excel.
-
-In SfDataGrid control, you can export data to Excel by using the ExportToExcel method. If you want export multiple SfDataGrid’s to single excel sheet , you need to merge the one SfDataGrid WorkSheet into another SfDataGrid WorkSheet using Worksheet.UsedRange.CopyTo method like the below code example.
+In `DataGrid` control, you can export data to Excel by using the `ExportToExcel` method. If you want export multiple DataGrid's to single excel sheet , you need to merge the one SfDataGrid WorkSheet into another SfDataGrid WorkSheet using `Worksheet.UsedRange.CopyTo` method like the below code example.
 
 ```c#
 using Syncfusion.WinForms.DataGridConverter;
@@ -30,7 +28,4 @@ private void OnExportButton_Click(object sender, EventArgs e)
 }
 ```
 
-![Excel_Image](Excel_Image.png)
-
-## Requirements to run the demo
-Visual Studio 2015 and above versions
+![Exporting multiple DataGrid into single worksheet](ExportingMultipleDataGridToSingleExcel.png)
